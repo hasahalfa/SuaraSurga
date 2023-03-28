@@ -13,22 +13,46 @@ class Song {
 
   static List<Song> songs = [
     Song(
-      title: 'Glass',
-      description: 'Glass',
-      url: 'assets/music/glass.mp3',
-      coverUrl: 'assets/images/glass.jpg',
+      title: 'dj',
+      description: 'hihi',
+      url: 'assets/music/lah.mp3',
+      coverUrl: 'assets/images/sir.jpg',
     ),
     Song(
-      title: 'Illusions',
-      description: 'Illusions',
-      url: 'assets/music/illusions.mp3',
-      coverUrl: 'assets/images/illusions.jpg',
+      title: 'dj',
+      description: 'hihi',
+      url: 'assets/music/Suzume.mp3',
+      coverUrl: 'assets/images/bumi.jpg',
     ),
     Song(
-      title: 'Pray',
-      description: 'Pray',
-      url: 'assets/music/pray.mp3',
-      coverUrl: 'assets/images/pray.jpg',
+      title: 'dj',
+      description: 'hihi',
+      url: 'assets/music/Matsuri.mp3',
+      coverUrl: 'assets/images/sir.jpg',
+    ),
+    Song(
+      title: 'lp',
+      description: 'xixi',
+      url: 'assets/music/LF.mp3',
+      coverUrl: 'assets/images/raen.jpg',
+    ),
+    Song(
+      title: 'apple',
+      description: 'raincar',
+      url: 'assets/music/apple.mp3',
+      coverUrl: 'assets/images/Sp.jpg',
+    ),
+    Song(
+      title: 'overdose',
+      description: 'ngobat',
+      url: 'assets/music/overdose.mp3',
+      coverUrl: 'assets/images/bo.jpg',
+    ),
+    Song(
+      title: '???',
+      description: '???',
+      url: 'assets/music/zzz.mp3',
+      coverUrl: 'assets/images/bumi.jpg',
     )
   ];
 }

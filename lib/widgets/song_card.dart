@@ -4,7 +4,7 @@ import 'package:get/get.dart';
 import '../models/song_model.dart';
 
 class SongCard extends StatelessWidget {
-  const SongCard({
+  const   SongCard({
     Key? key,
     required this.song,
   }) : super(key: key);
@@ -12,8 +12,7 @@ class SongCard extends StatelessWidget {
   final Song song;
 
   @override
-  Widget build(BuildContext context) {
-    return InkWell(
+  Widget build(BuildContext context) {    return InkWell(
       onTap: () {
         Get.toNamed('/song', arguments: song);
       },
@@ -52,7 +51,7 @@ class SongCard extends StatelessWidget {
                       Text(
                         song.title,
                         style: Theme.of(context).textTheme.bodyLarge!.copyWith(
-                              color: Colors.deepPurple,
+                              color: Colors.grey,
                               fontWeight: FontWeight.bold,
                             ),
                       ),
@@ -67,7 +66,7 @@ class SongCard extends StatelessWidget {
                   ),
                   const Icon(
                     Icons.play_circle,
-                    color: Colors.deepPurple,
+                    color: Colors.grey,
                   ),
                 ],
               ),

@@ -18,8 +18,8 @@ class HomeScreen extends StatelessWidget {
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
           colors: [
-            Colors.deepPurple.shade800.withOpacity(0.8),
-            Colors.deepPurple.shade200.withOpacity(0.8),
+            Colors.grey.shade400.withOpacity(0.8),
+            Colors.grey.shade900.withOpacity(0.8),
           ],
         ),
       ),
@@ -128,7 +128,7 @@ class _DiscoverMusic extends StatelessWidget {
           ),
           const SizedBox(height: 5),
           Text(
-            'Enjoy your favorite music',
+            'Mending Iklan Marjan',
             style: Theme.of(context)
                 .textTheme
                 .headline6!
@@ -167,7 +167,7 @@ class _CustomNavBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BottomNavigationBar(
       type: BottomNavigationBarType.fixed,
-      backgroundColor: Colors.deepPurple.shade800,
+      backgroundColor: Colors.grey.shade800,
       unselectedItemColor: Colors.white,
       selectedItemColor: Colors.white,
       showUnselectedLabels: false,
@@ -176,6 +176,7 @@ class _CustomNavBar extends StatelessWidget {
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
           label: 'Home',
+
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.favorite_outline),
